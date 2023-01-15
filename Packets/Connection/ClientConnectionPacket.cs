@@ -6,6 +6,6 @@ namespace Shared.Packets.Connection
     [Serializable]
     public class ClientConnectionPacket : IPacket
     {
-        public string ClientId { get; set; }
+        public int ClientId { get; set; }
     }
 }
